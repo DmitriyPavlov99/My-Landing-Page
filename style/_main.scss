@@ -1,0 +1,158 @@
+.main {
+  display: flex;
+  margin-top: 3%;
+}
+
+.main_introduction {
+  width: 53%;
+}
+
+.main_name {
+  font-size: 85px;
+  color: #ffffff;
+  letter-spacing: -2px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-bottom: 35px;
+}
+
+.main_text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+
+.main_buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.main_button-enter {
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 13px;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    background: black;
+    color: #fff;
+    transition: 0.7s;
+  }
+}
+.main_button-watch {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  gap: 5px;
+  &:hover {
+    color: black;
+    transition: 0.7s;
+  }
+}
+.main_sponsored {
+  opacity: 0.6;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  line-height: 42px;
+  display: flex;
+  gap: 20px;
+  .main_sponsored-text {
+    font-size: 14px;
+  }
+}
+.main_sponsored-img {
+  height: 28px;
+  align-self: center;
+  display: flex;
+}
+
+// .main_photo {
+
+// }
+//1600
+//1290
+
+//1025
+//845
+//768
+//320
+
+@media (max-width: 1290px) {
+  .main_introduction {
+    width: 73%;
+  }
+  .main_name {
+    font-size: 45px;
+  }
+  .main_photo-settings {
+    width: 90%;
+    height: 100%;
+    margin-top: 2%;
+  }
+  .main_name {
+    margin-bottom: 17px;
+  }
+  .main_text {
+    margin-bottom: 20px;
+  }
+  .main_buttons {
+    margin-bottom: 20px;
+  }
+  .main_sponsored-img {
+    width: 100%;
+  }
+  .container {
+    height: 800px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .main_introduction {
+    width: 110%;
+  }
+  .main_text {
+    font-size: 14px;
+  }
+  .main_name {
+    font-size: 33px;
+  }
+  .main_button-enter {
+    font-size: 14px;
+    padding: 7px;
+  }
+  .main_button-watch {
+    font-size: 14px;
+  }
+  .container {
+    height: 600px;
+  }
+  .main_sponsored-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1025px) { 
+    .main_photo-settings {
+        height: 80%;
+    }
+}
+
+@media (max-width: 750px) { 
+    .main_photo-settings {
+        width: 70%;
+    }
+    .main_text {
+        display: none;
+    }
+}
+

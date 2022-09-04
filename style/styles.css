@@ -572,4 +572,131 @@ table {
     font-size: 16px;
     letter-spacing: normal;
   }
+}
+.corefeatures {
+  display: flex;
+  padding: 0% 8%;
+}
+
+.corefeatures_card {
+  display: flex;
+  margin-bottom: 40px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(69, 88, 157, 0.07);
+  border-radius: 24px;
+  height: 140px;
+}
+
+.corefeatures_main {
+  margin-left: 9%;
+}
+
+.corefeatures_card-text {
+  flex-direction: column;
+}
+
+.corefeatures_title {
+  align-items: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #244886;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
+.corefeatures_descr {
+  align-items: center;
+  letter-spacing: -1.5px;
+  font-weight: 700;
+  font-size: 48px;
+  color: #0f2137;
+}
+
+.corefeatures_main-descr {
+  margin-bottom: 8%;
+}
+
+.corefeatures_card-img {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.corefeatures_text-name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #0f2137;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding: 5px;
+}
+
+.corefeatures_text-descr {
+  font-size: 15px;
+  color: #343d48;
+  line-height: 26px;
+  padding: 5px;
+}
+
+@media (max-width: 1290px) {
+  .corefeatures_img-main {
+    width: 100%;
+  }
+  .corefeatures_img {
+    width: 100%;
+  }
+}
+@media (max-width: 845px) {
+  .corefeatures_descr {
+    font-size: 34px;
+  }
+  .corefeatures_main {
+    margin-left: 5%;
+  }
+  .corefeatures {
+    padding: 0% 5%;
+  }
+  .corefeatures_img-main {
+    width: 75%;
+  }
+}
+@media (max-width: 750px) {
+  .corefeatures_descr {
+    font-size: 25px;
+  }
+}
+@media (max-width: 635px) {
+  .corefeatures {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .corefeatures_title {
+    text-align: center;
+  }
+  .corefeatures_descr {
+    text-align: center;
+  }
+  .corefeatures_img-main {
+    width: 50%;
+  }
+}
+@media (max-width: 465px) {
+  .corefeatures_img-main {
+    width: 35%;
+  }
+  .corefeatures_descr {
+    font-size: 18px;
+  }
+  .corefeatures_card {
+    flex-direction: column;
+    height: 215px;
+  }
+  .corefeatures_card-img {
+    text-align: center;
+  }
+  .corefeatures_card-text {
+    text-align: center;
+  }
 }/*# sourceMappingURL=styles.css.map */

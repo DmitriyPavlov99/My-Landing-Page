@@ -902,4 +902,12 @@ table {
   .wfeatures_decsr {
     font-size: 13px;
   }
+  .wfeatures_button {
+    width: 90px;
+    height: 35px;
+  }
+  .wfeatures_button-set {
+    font-size: 14px;
+    height: 35px;
+  }
 }/*# sourceMappingURL=styles.css.map */

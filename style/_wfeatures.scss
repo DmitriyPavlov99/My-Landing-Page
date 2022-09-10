@@ -94,10 +94,18 @@
   }
 }
 @media (max-width: 450px) {
-    .wfeatures_title {
-        font-size: 18px;
-      }
-      .wfeatures_decsr {
-        font-size: 13px;
-      }
+  .wfeatures_title {
+    font-size: 18px;
+  }
+  .wfeatures_decsr {
+    font-size: 13px;
+  }
+  .wfeatures_button {
+    width: 90px;
+    height: 35px;
+  }
+  .wfeatures_button-set {
+    font-size: 14px;
+    height: 35px;
+  }
 }

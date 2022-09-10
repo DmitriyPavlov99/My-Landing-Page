@@ -707,7 +707,7 @@ table {
   }
 }
 .benefits {
-  margin-top: 20%;
+  margin-top: 13%;
   font-family: "DM Sans", sans-serif;
 }
 .benefits .benefits_names {
@@ -794,5 +794,112 @@ table {
 @media (max-width: 400px) {
   .benefits_cards {
     padding: 0px 0px 0px 12px;
+  }
+}
+.wfeatures {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+}
+
+.wfeatures_mainname {
+  align-items: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #244886;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
+.wfeatures_title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  color: #0f2137;
+}
+
+.wfeatures_decsr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  color: #02073e;
+  margin-bottom: 4%;
+}
+
+.wfeatures_button {
+  background: #1f3e76;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #1f3e76;
+}
+.wfeatures_button :hover {
+  color: #1f3e76;
+  background-color: white;
+  border-radius: 50px;
+  transition: 0.7s;
+}
+
+.wfeatures_button-set {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  text-decoration: none;
+  color: #ffffff;
+  height: 50px;
+  align-items: center;
+}
+
+.wfeatures_imgside-840px {
+  display: none;
+}
+
+@media (max-width: 1290px) {
+  .wfeatures_imgside-img {
+    width: 110%;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 846px) {
+  .wfeatures_textside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .wfeatures_imgside-840px {
+    display: flex;
+    justify-content: center;
+  }
+  .wfeatures_imgside-img-840px {
+    width: 80%;
+  }
+  .wfeatures_imgside-img {
+    display: none;
+  }
+  .wfeatures_mainname {
+    justify-content: center;
+    display: flex;
+  }
+  .wfeatures_button {
+    margin: 0 auto;
+  }
+  .wfeatures_title {
+    font-size: 25px;
+  }
+  .wfeatures_decsr {
+    font-size: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .wfeatures_title {
+    font-size: 18px;
+  }
+  .wfeatures_decsr {
+    font-size: 13px;
   }
 }/*# sourceMappingURL=styles.css.map */

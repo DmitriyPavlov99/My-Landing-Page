@@ -259,6 +259,7 @@ table {
   font-weight: 700;
   line-height: 100px;
   margin-bottom: 35px;
+  display: none;
 }
 
 .main_text {

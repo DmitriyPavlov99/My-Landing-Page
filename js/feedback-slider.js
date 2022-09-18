@@ -1,6 +1,6 @@
 $(".testmonial_slider_area").owlCarousel({
     autoplay: true,
-    slideSpeed:2000,
+    slideSpeed:1000,
     items : 2,
     loop: true,
     nav:true,

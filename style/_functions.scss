@@ -2,7 +2,7 @@
   margin-top: 10%;
   background-image: url(../images/backgroung-functions.svg);
   width: 100%;
-  height: 770px;
+  height: 822px;
   background-size: cover;
   font-family: $main-font;
 }
@@ -137,7 +137,7 @@
     background-position: center;
   }
   .functions_card {
-    height: 250px;
+    height: 311px;
   }
 }
 @media (max-width: 542px) {
@@ -156,7 +156,7 @@
     margin-bottom: 10px;
   }
   .functions {
-    height: 1340px;
+    height: 860px;
   }
   #numberOne,#numberSecond,#numberThird,#numberFour {
     background-size: 40%;
@@ -164,6 +164,7 @@
 }
 @media (max-width: 400px) {
   .functions_card {
-    padding: 20px;
+    padding: 1px;
+    height: 333px;
   }
 }

@@ -29,19 +29,19 @@
 }
 
 .wfeatures_button {
-  background: #1f3e76;
+  margin-top: 15px;
   border-radius: 50px;
   width: 150px;
   height: 50px;
-  border: 1px solid #1f3e76;
+  
   :hover {
-    color: #1f3e76;
-    background-color: white;
-    border-radius: 50px;
+    background-color: #ffffff;
     transition: 0.7s;
+    text-decoration: none;
   }
 }
 .wfeatures_button-set {
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   font-weight: 500;
@@ -50,10 +50,12 @@
   letter-spacing: -0.16px;
   text-decoration: none;
   color: #ffffff;
-  height: 50px;
+  // height: 50px;
   align-items: center;
+  background: #1f3e76;
+  border: 1px solid #1f3e76;
 }
-.wfeatures_imgside-840px {
+.wfeatures_imgside-img-840px {
   display: none;
 }
 
@@ -106,6 +108,10 @@
   }
   .wfeatures_button-set {
     font-size: 14px;
-    height: 35px;
+    height: 30px;
+  }
+  .wfeatures_button {
+    width: 110px;
+    height: 30px;
   }
 }

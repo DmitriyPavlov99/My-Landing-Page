@@ -15,9 +15,9 @@ $(".testmonial_slider_area").owlCarousel({
             items:2
         },
         600:{
-            items:2
+            items:1
         },
-        1000:{
+        1230:{
             items:3
         }
     }
